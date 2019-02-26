@@ -1,9 +1,9 @@
 EE=read.csv("./EE.csv",stringsAsFactors = F,header = T)
-OO=read.csv("./OO.csv",stringsAsFactors = F,header = T)
-Te=read.csv("./Te.csv",stringsAsFactors = F,header = T)
-Th=read.csv("./Th.csv",stringsAsFactors = F,header = T)
-Vi=read.csv("./Vi.csv",stringsAsFactors = F,header = T)
-Vo=read.csv("./Vo.csv",stringsAsFactors = F,header = T)
+O2=read.csv("./OO.csv",stringsAsFactors = F,header = T)
+Tesco=read.csv("./Te.csv",stringsAsFactors = F,header = T)
+Three=read.csv("./Th.csv",stringsAsFactors = F,header = T)
+Virgin=read.csv("./Vi.csv",stringsAsFactors = F,header = T)
+Vodafone=read.csv("./Vo.csv",stringsAsFactors = F,header = T)
 
 #File import for word cloud
 nee=read.csv("./nee.csv")

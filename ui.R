@@ -35,7 +35,7 @@ shinyUI(
     dashboardBody(
       radioButtons(inputId = "dataset",
                    label = "Choose a dataset:",
-                   choices = c("Th","Vo","Te","Vi","EE","Oo"),inline = T),
+                   choices = c("Three","Vodafone","Tesco","Virgin","EE","O2"),inline = T),
     #   fluidPage(
     #   dateRangeInput("dates", 
     #                  "Date range",
@@ -63,7 +63,7 @@ shinyUI(
                     box(plotOutput("bar2")),box(plotOutput("pie1")))
                   ),
                   tabPanel("Sentiments values and Emotion scores",fluidRow(#box(plotOutput("histogram1")),
-                    radioButtons("inField1","select a field for emotion",choices = names(Th[,3:12]),inline = T),
+                    radioButtons("inField1","select a field for emotion",choices = names(Three[,3:12]),inline = T),
                     sliderInput("bins","Number of breaks",1,10,10),
                     
                                              box(plotOutput("hist3"),width = 6),
